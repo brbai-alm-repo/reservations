@@ -36,8 +36,8 @@ env:
   BUILD_ENVIRONMENT_URL: 'https://brbai-alm-build.crm.dynamics.com'
   PRODUCTION_ENVIRONMENT_URL: 'https://brbai-alm-prod.crm.dynamics.com'
   USERNAME: 'admin@CRM447479.onmicrosoft.com'
-  CLIENT_ID: 'a6af7aa5-79df-4276-bcdb-85764f600693'
-  TENANT_ID: 'a6658405-e369-4e0c-aaa2-835c0584eeed'
+  #CLIENT_ID: 'a6af7aa5-79df-4276-bcdb-85764f600693'
+  #TENANT_ID: 'a6658405-e369-4e0c-aaa2-835c0584eeed'
 
 jobs:
   convert-to-managed:
