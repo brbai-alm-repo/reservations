@@ -69,7 +69,8 @@ jobs:
         solution-file: ${{ github.event.inputs.solution_outbound_folder}}/${{ github.event.inputs.solution_name }}.zip
         force-overwrite: true
         publish-changes: true
-        max-async-wait-time: 60
+        run-asynchronously: true
+        #max-async-wait-time: 60
 
     - name: Export solution as managed
       uses: microsoft/powerplatform-actions/export-solution@0.4.0
@@ -113,5 +114,6 @@ jobs:
         solution-file: ${{ github.event.inputs.solution_release_folder}}/${{ github.event.inputs.solution_name }}.zip
         force-overwrite: true
         publish-changes: true
-        max-async-wait-time: 60
+        run-asynchronously: true
+        #max-async-wait-time: 60
         
