@@ -5,6 +5,9 @@ name: release-solution-to-prod
 
 on:
   workflow_dispatch:
+  
+  release:
+    types: [created]
     inputs:
       # Change this value
       solution_name:
